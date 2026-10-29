@@ -26,7 +26,6 @@ import {
   siFigma,
   siGit,
   siGithub,
-  siGithubcopilot,
   siClaude,
   siBootstrap,
   siDocker,
@@ -136,7 +135,6 @@ const skillGroups: {
       { name: 'GitHub', icon: siGithub },
       { name: 'Figma', icon: siFigma },
       { name: 'Docker', icon: siDocker },
-      { name: 'GitHub Copilot', icon: siGithubcopilot },
       { name: 'ChatGPT', mark: 'GPT' },
       { name: 'Claude', icon: siClaude },
     ],
@@ -530,7 +528,7 @@ function App() {
               Boîte à outils
             </p>
             <h2 className="text-3xl font-semibold tracking-tight sm:text-4xl">
-              Développement, Data & outils
+              Développement & Data
             </h2>
             <p className="mt-4 text-sm leading-6 text-slate-400 sm:text-base">
               Trois domaines complémentaires : mon socle en développement,
@@ -606,12 +604,9 @@ function App() {
                   Projets Dev-IA
                 </p>
                 <h2 className="text-3xl font-semibold tracking-tight sm:text-4xl">
-                  Des idées transformées en applications.
+                  Des idées transformées en applications Web.
                 </h2>
-                <p className="mt-3 text-sm leading-6 text-slate-400">
-                  Une sélection de projets de développement et de prototypage
-                  assisté par IA, qui pourra aussi accueillir mes futurs projets Data.
-                </p>
+                
               </div>
               <span className="inline-flex items-center gap-2 rounded-full border border-white/[0.08] bg-slate-950/60 px-3 py-2 text-xs text-slate-400">
                 <Images size={15} className="text-emerald-300" aria-hidden="true" />
@@ -778,7 +773,7 @@ function App() {
                     </h3>
                     <p className="mt-2 text-sm leading-6 text-slate-400">
                       Je poursuis actuellement un Master 1 en Data Engineering
-                      et je me prépare à devenir Data Engineer.
+                      Pour explorer mieux la data.
                     </p>
                   </article>
                 </div>
