@@ -88,7 +88,7 @@ const projects = [
       { name: 'jQuery', icon: siJquery },
       { name: 'MySQL', icon: siMysql },
     ],
-    githubUrl: '',
+    githubUrl: 'https://github.com/RICKY-BRASHER/RM-Drink-Service',
   },
 ]
 
