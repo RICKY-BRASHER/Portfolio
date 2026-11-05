@@ -67,7 +67,7 @@ const projects = [
       { name: 'PostgreSQL', icon: siPostgresql },
       { name: 'Tailwind CSS', icon: siTailwindcss },
     ],
-    githubUrl: '',
+    githubUrl: 'https://github.com/RICKY-BRASHER/YamooDrive',
   },
   {
     id: 'distrib237',
@@ -84,7 +84,7 @@ const projects = [
     stack: [
       { name: 'Laravel', icon: siLaravel },
       { name: 'Bootstrap', icon: siBootstrap },
-      { name: 'jQuery', icon: siJquery },
+      { name: 'jQuery', icon: siJquery },   
       { name: 'MySQL', icon: siMysql },
     ],
     githubUrl: 'https://github.com/RICKY-BRASHER/RM-Drink-Service',
@@ -114,6 +114,7 @@ const skillGroups: {
       { name: 'Next.js', icon: siNextdotjs },
       { name: 'TypeScript', icon: siTypescript },
       { name: 'Tailwind CSS', icon: siTailwindcss },
+      { name: 'Bootstrap', icon: siBootstrap }, 
       { name: 'PHP', icon: siPhp },
       { name: 'Laravel', icon: siLaravel },
       { name: 'jQuery', icon: siJquery },
@@ -369,7 +370,7 @@ function App() {
                 Me contacter <ArrowUpRight size={15} aria-hidden="true" />
               </a>
               <a
-                href="/Cv-Portfolio.pdf"
+                href="/Cvpro.pdf"
                 download="CV-Rick-Stephane-Hentcho-Takougang.pdf"
                 className="hover-lift inline-flex items-center gap-2 rounded-xl border border-emerald-300/20 bg-emerald-300/[0.06] px-5 py-3 text-sm font-medium text-emerald-100 transition-colors hover:border-emerald-300/40 hover:bg-emerald-300/[0.1]"
               >
